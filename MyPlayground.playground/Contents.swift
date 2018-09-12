@@ -20,9 +20,7 @@ var 是多少 = 1
 
 是多少 = 2
 
-var a : Int?
 
-print(a)
 
 
 var 时代 = 1
@@ -61,10 +59,6 @@ let number: Character = "1"
 let ss = "你真好看😈"
 
 
-for i in 1...100{
-    print(i)
-}
-
 
 
 
@@ -94,13 +88,19 @@ if q == 1 {
     // 这个例子会编译成功
 }
 
+//var sum = 0
 
-for sum in 1...100{
-    print(sum)
+
+var add = 0
+for  i in 1...100{
+    add+=i
 }
+print(add)
 
-
-
-
-
+var gq = 0
+for w in 0...100{
+    gq+=w
+    
+}
+print(gq)
 		
