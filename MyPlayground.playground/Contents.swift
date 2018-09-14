@@ -103,4 +103,35 @@ for w in 0...100{
     
 }
 print(gq)
-		
+
+
+
+
+
+
+
+let age = 3
+assert(age >= 0, "sdsdsdddd")
+
+
+
+if age > 10 {
+    print("You can ride the roller-coaster or the ferris wheel.")
+} else if age > 0 {
+    print("You can ride the ferris wheel.")
+} else {
+    assertionFailure("A person's age can't be less than zero.")
+}
+
+var ssq: Array<Int> = [10,-22,753,55,137,-1,-279,1034,77]
+func xx(num1: Int, num2: Int) ->Bool {
+    return num1 < num2
+}
+ssq.sort(by: xx)
+ssq
+
+
+
+
+
+
