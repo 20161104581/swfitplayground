@@ -125,10 +125,34 @@ if age > 10 {
 
 var ssq: Array<Int> = [10,-22,753,55,137,-1,-279,1034,77]
 func xx(num1: Int, num2: Int) ->Bool {
-    return num1 < num2
+    return num1 > num2
 }
 ssq.sort(by: xx)
 ssq
+
+
+
+
+
+var students = [(name:"bob",num:18,score:25,sex:"male"),(name:"jam",num:19,score:99,sex:"female"),(name:"gq",num:23,score:100,sex:"male"),(name:"er",num:20,score:67,sex:"female")]
+var x:(String,Int,Int,String)
+for i in 0..<students.count{
+    for j in 0..<(students.count-i-1){
+        if students[j].num < students[j+1].num {
+            x = students[j]
+            students[j]=students[j+1]
+            students[j+1]=x
+    }
+    }
+
+}
+for student in students{
+    print(student)
+}
+
+
+
+
 
 
 
